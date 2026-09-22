@@ -2,12 +2,11 @@
 Name: Kay Nae Oo
 Date: 9/21/2026
 */
-input:invalid, textarea:invalid, .required{
+
 input:invalid, textarea:invalid {
     border: 2px red;
     border-radius: 5px;
 }
 input:focus:invalid, textarea:focus:invalid {
     border: none;
-}
 }
