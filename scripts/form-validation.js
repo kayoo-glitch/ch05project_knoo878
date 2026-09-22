@@ -1,3 +1,8 @@
+/*
+Name: Kay Nae Oo
+Date: 9/22/2026
+*/
+
 function checkMissing() {
     
     var emptyField = "";
