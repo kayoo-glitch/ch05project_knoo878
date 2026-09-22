@@ -3,10 +3,10 @@ Name: Kay Nae Oo
 Date: 9/21/2026
 */
 
-input:invalid, textarea:invalid {
+input:invalid, textarea:invalid .required{
     border: 2px red;
     border-radius: 5px;
 }
-input:focus:invalid, textarea:focus:invalid {
+input:focus:invalid, textarea:focus:invalid .required{
     border: none;
 }
