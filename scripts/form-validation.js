@@ -30,8 +30,18 @@ function checkMissing() {
     if (document.getElementById('writeDown').value == "") {
         emptyField += "You have 1 input that is incomplete";
     }
-
 }
-function validateEmail() {
+const emailInput = document.getElementById('email')
+Input.addEventListener('email', validateEmail)
 
+function validateEmail() {
+    const emailLength = input.value.length
+    const minimumLength = 8
+    var response = "";
+
+    if (emailLength === minimumLength) {
+        response += "The email input has 8 characters."
+    } else {
+        response += "The email input has to have at least 8 characters."
+    }
 }
