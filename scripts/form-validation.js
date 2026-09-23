@@ -45,3 +45,9 @@ function validateEmail() {
         response += "The email input has to have at least 8 characters."
     }
 }
+function alert() {
+    if (document.getElementById('fullName').value == "" || document.getElementById('email').value == "" || document.getElementById('writeDown').value == "") {
+        alert("If form submission is blocked Its due to incomplete or invalid fields.")
+    }
+}
+
