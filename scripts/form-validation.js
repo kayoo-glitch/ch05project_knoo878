@@ -55,7 +55,7 @@ function validateEmail() {
     }
 }
 /*
-This function will alert only if input is empty.
+This function will alert only if input is empty or invalid.
 */
 function alert() {
     if (document.getElementById('fullName').value == "" || document.getElementById('email').value == "" || document.getElementById('writeDown').value == "") {
