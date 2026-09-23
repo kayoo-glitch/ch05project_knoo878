@@ -39,7 +39,7 @@ function validateEmail() {
     const minimumLength = 8
     var response = "";
 
-    if (emailLength === minimumLength) {
+    if (emailLength >= minimumLength) {
         response += "The email input has 8 characters."
     } else {
         response += "The email input has to have at least 8 characters."
